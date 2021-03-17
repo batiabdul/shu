@@ -3,6 +3,23 @@
   color: #282c34;
 }
 
+.active {
+  border-bottom: 4px solid red;
+}
+
+.navbar{
+  padding-bottom: 0px;
+}
+
+.header {
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.socialMedia{
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,4 +53,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footerText {
+  align-items: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
 }
